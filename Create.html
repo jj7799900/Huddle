@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Huddle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <link href="HuddleCSS.css" type="text/css" rel="stylesheet" />
+    <style>
+      html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+    </style>
+  </head>
+  
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="SignIn.html">Sign-in</a></li>
+      <li><a href="Create.html">Create Contact</a></li>
+    </ul>
+	
+	<h1>
+	The Huddle
+	</h1>
+	
+	<form method="POST" action="createaccount.php"class="SignClass">
+	  First Name:<br/>
+	  <input type="text" name="firstName"/><br/>
+	  Last Name:<br/>
+	  <input type="text" name="lastName"/><br/>
+	  Username:<br/>
+	  <input type="text" name="Username"/><br/>
+	  Password:<br/>
+	  <input type="password" name="password"/><br/>
+	  Renter Password:<br/>
+	  <input type="password" name="rePassword"/><br/>
+	  <input type="submit" name="subButton" value="Create Account"/>
+	</form>
+	
+  </body>
+</html>
